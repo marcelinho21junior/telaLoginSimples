@@ -19,6 +19,8 @@
     align-items: center;
     justify-content: center;
     background-color: rgb(35, 85, 39);
+    color: white;
+    text-align: center;
     height: 60%;
     width: 25%;
     border-radius: 10px 1px 1px 10px;
@@ -29,7 +31,16 @@
     align-items: center;
     justify-content: center;
     background-color: white;
+    text-align: center;
     height: 60%;
     width: 40%;
     border-radius: 1px 10px 10px 1px;
+}
+
+.containerSecondInputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: yellow;
+    width: 100%;
 }
