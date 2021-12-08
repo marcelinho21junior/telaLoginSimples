@@ -1,0 +1,35 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+    background-color: whitesmoke;
+}
+
+.cardGrande{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.containerPrima{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(35, 85, 39);
+    height: 60%;
+    width: 25%;
+    border-radius: 10px 1px 1px 10px;
+}
+
+.containerSecond{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    height: 60%;
+    width: 40%;
+    border-radius: 1px 10px 10px 1px;
+}
