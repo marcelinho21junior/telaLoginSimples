@@ -1,0 +1,84 @@
+.container{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(248, 247, 247);
+}
+
+.content{
+    background-color: white;
+    width: 80%;
+    height: 50%;
+    border-radius: 10px;
+    position: relative;
+}
+
+.content::before{
+    content:'';
+    position: absolute;
+    background-color: rgb(17, 170, 63);
+    width: 40%;
+    height: 100%;
+
+    left: 60%;
+}
+
+/*primary content*/
+.primaryContent{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    display: none;
+}
+/*============================*/
+
+/*second content*/
+.secondContent{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+
+.secondContent .secondContent1coluna{
+    order: 2;
+}
+
+.secondContent .secondContent2coluna{
+    order: 1;
+}
+
+.secondContentRedesSociais{
+    display: flex;
+    justify-content: space-around;
+}
+/*============================*/
+
+/*itens dentro da 1 coluna do bem vindo de volta*/
+.primaryContent1coluna{
+    color: white;
+    z-index: 10;
+}
+
+.primaryContent2coluna{
+    width: 40%;
+    text-align: center;
+    z-index: 10;
+}
+
+/*itens dentro da 1 coluna do OLA AMIGO*/
+.secondContent1coluna{
+    color: white;
+    z-index: 10;
+}
+
+.CriarContaInputs{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 90px;
+    width: 100%;
+}
+
