@@ -13,7 +13,6 @@
     height: 60%;
     border-radius: 10px;
     position: relative;
-    background-color: rgb(0, 195, 255);
 }
 
 .content::before{
@@ -55,6 +54,7 @@
 .secondContentRedesSociais{
     display: flex;
     justify-content: space-around;
+    background-color: tomato;
 }
 /*============================*/
 
@@ -63,31 +63,43 @@
     color: white;
     z-index: 10;
     text-align: center;
+    width: 40%;
 }
 
 .primaryContent2coluna{
     width: 40%;
     text-align: center;
     z-index: 10;
+    width: 60%;
 }
 
 /*itens dentro da 1 coluna do OLA AMIGO*/
 .secondContent1coluna{
     color: white;
     z-index: 10;
-    background-color: blue;
     text-align: center;
+    width: 40%;
 }
 
 .secondContent2coluna{
     text-align: center;
+    width: 60%;
 }
 
 .CriarContaInputs{
     display: flex;
     justify-content: space-around;
     flex-direction: column;
-    height: 90px;
+    align-items: center;
+    height: 100px;
     width: 100%;
+}
+
+/*Inputs do second*/
+.CriarContaInputsSecondInputs{
+    text-align: center;
+    width: 70%;
+    height: 50%;
+    margin: 1px;
 }
 
