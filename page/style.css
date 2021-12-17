@@ -9,10 +9,11 @@
 
 .content{
     background-color: white;
-    width: 80%;
-    height: 50%;
+    width: 60%;
+    height: 60%;
     border-radius: 10px;
     position: relative;
+    background-color: rgb(0, 195, 255);
 }
 
 .content::before{
@@ -29,7 +30,7 @@
 .primaryContent{
     display: flex;
     flex-direction: row;
-    justify-content:space-around;
+    justify-content:space-between;
     align-items: center;
     display: none;
 }
@@ -39,7 +40,8 @@
 .secondContent{
     display: flex;
     align-items: center;
-    justify-content:space-around;
+    justify-content:space-between;
+    
 }
 
 .secondContent .secondContent1coluna{
@@ -60,6 +62,7 @@
 .primaryContent1coluna{
     color: white;
     z-index: 10;
+    text-align: center;
 }
 
 .primaryContent2coluna{
@@ -72,6 +75,12 @@
 .secondContent1coluna{
     color: white;
     z-index: 10;
+    background-color: blue;
+    text-align: center;
+}
+
+.secondContent2coluna{
+    text-align: center;
 }
 
 .CriarContaInputs{
