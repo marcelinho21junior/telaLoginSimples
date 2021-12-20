@@ -22,16 +22,49 @@
     width: 40%;
     height: 100%;
 
-    left: 60%;
+    /*left: 60%;*/
 }
 
 /* ============================ primary content ================================*/
 .primaryContent{
     display: flex;
     flex-direction: row;
-    justify-content:space-between;
+    justify-content:space-around;
     align-items: center;
-    display: none;
+    height: 100%;
+}
+
+.primaryContent2colunaCriarConta{
+    color: rgb(12, 163, 156);
+}
+
+.primaryContentButtonEntrar{
+    background-color: rgb(12, 163, 156);
+    padding: 5px;
+    width: 40%;
+    border-radius: 15px;
+    border-color: white;
+    font-size: 15px;
+    color: white;
+    font-weight: 500;
+}
+
+.primaryContentButtonEntrar:hover{
+    background-color:white;
+    border-color:rgb(12, 163, 156);
+    color:rgb(12, 163, 156);
+    font-weight: 600;
+}
+
+.primaryContentButtonBemVindo{
+    background-color: rgb(12, 163, 156);
+    padding: 5px;
+    width: 40%;
+    border-radius: 15px;
+    border-color: white;
+    font-size: 15px;
+    color: white;
+    font-weight: 500;
 }
 
 /*============================= second content =================================*/
@@ -39,7 +72,7 @@
     display: flex;
     align-items: center;
     justify-content:space-between;
-    
+     display: none;
 }
 
 .secondContent .secondContent1coluna{
@@ -95,6 +128,53 @@
     padding: 5px;
 }
 
+.secondContentCriarContaInputs{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+}
+
+.CriarContaInputsSecondInputs{
+    display: flex;
+    align-items: center;
+    background-color: rgb(196, 236, 248);
+    padding: 10px;
+    width: 60%;
+    border-radius: 5px;
+}
+
+.InputSecond{
+    border:none;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(196, 236, 248);
+}
+
+.secondContentEsqueceuSenha{
+    
+}
+
+.secondContentButtonEntrar{
+    background-color: rgb(12, 163, 156);
+    padding: 5px;
+    width: 40%;
+    border-radius: 15px;
+    border-color: white;
+    font-size: 15px;
+    color: white;
+    font-weight: 500;
+}
+
+.secondContentButtonEntrar:hover{
+    background-color:white;
+    border-color:rgb(12, 163, 156);
+    color:rgb(12, 163, 156);
+    font-weight: 600;
+}
+
 /*itens dentro da 1 coluna do bem vindo de volta*/
 .primaryContent1coluna{
     color: white;
@@ -104,7 +184,8 @@
 }
 
 .primaryContent2coluna{
-    width: 40%;
+    display: flex;
+    flex-direction: column;
     text-align: center;
     z-index: 10;
     width: 60%;
@@ -132,11 +213,5 @@
     width: 100%;
 }
 
-/*Inputs do second*/
-.CriarContaInputsSecondInputs{
-    text-align: center;
-    width: 70%;
-    height: 50%;
-    margin: 1px;
-}
+
 

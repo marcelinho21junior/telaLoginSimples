@@ -11,27 +11,43 @@
 <body>
     <div class="container">
         <div class="content">
+
+            <!---------------------------------PRIMARY--------------------------------------------------------------->
             <div class="primaryContent">
                 <div class="primaryContent1coluna">
                     <h2>Bem vindo de volta!</h2>
                     <h4>Muito bom ti ver novamente!</h4>
                     <h4>Para logar clique no botao</h4>
-                    <button>LOGAR</button>
+                    <button class="primaryContentButtonBemVindo">LOGAR</button>
                 </div>
                 <div class="primaryContent2coluna">
-                    <h2>Criar uma conta!</h2>
-                        <a href=""><i class="fab fa-facebook"></i></a>
-                        <a href=""><i class="fab fa-google"></i></a>
-                        <a href=""><i class="fab fa-linkedin"></i></a>
+                    <h2 class="primaryContent2colunaCriarConta">Criar uma conta!</h2>
+                    <div class="secondContentRedesSociais">    
+                        <a href="" class="secondContentRedesSociaisIten"><i class="fab fa-facebook"></i></a>
+                        <a href="" class="secondContentRedesSociaisIten"><i class="fab fa-google"></i></a>
+                        <a href="" class="secondContentRedesSociaisIten"><i class="fab fa-linkedin"></i></a>
+                    </div>
                     <h4>Ou use seu email para registro</h4>
-                    <div class="CriarContaInputs">
-                        <input class="CriarContaInputsSecondInputs" type="email" placeholder="Nome"/>
-                        <input class="CriarContaInputsSecondInputs" type="email" placeholder="E-mail"/>
-                        <input class="CriarContaInputsSecondInputs" type="password" maxlength="10" placeholder="Senha"/>
+                    <div class="secondContentCriarContaInputs">
+                        <label class="CriarContaInputsSecondInputs">
+                            <i class="fas fa-user-friends"></i>
+                            <input class="InputSecond" type="email" placeholder="Nome"/>
+                        </label>
+                        <label class="CriarContaInputsSecondInputs">
+                            <i class="fas fa-envelope-square"></i>
+                            <input class="InputSecond" type="email" placeholder="E-mail"/>
+                        </label>
+                        <label class="CriarContaInputsSecondInputs">
+                            <i class="fas fa-lock"></i>
+                            <input class="InputSecond" type="password" maxlength="10" placeholder="Senha"/>
+                        </label>     
                     </div>    
-                    <button>LOGAR</button>
+                    <a href=""><p class="secondContentEsqueceuSenha">Esqueceu a senha?</p></a>
+                    <button class="primaryContentButtonEntrar">ENTRAR</button>              
                 </div>
             </div>
+
+            <!---------------------------------SECOND--------------------------------------------------------------->
             <div class="secondContent">
                 <div class="secondContent1coluna">
                     <h2>OLÁ AMIGO!</h2>
@@ -39,18 +55,24 @@
                     <button class="secondContentButtonCriar">Criar cadastro</button>
                 </div>
                 <div class="secondContent2coluna">
-                    <h1>Entre Com Uma Conta!</h1>
+                    <h1 class="">Entre Com Uma Conta!</h1>
                     <div class="secondContentRedesSociais">    
                         <a href="" class="secondContentRedesSociaisIten"><i class="fab fa-facebook"></i></a>
                         <a href="" class="secondContentRedesSociaisIten"><i class="fab fa-google"></i></a>
                         <a href="" class="secondContentRedesSociaisIten"><i class="fab fa-linkedin"></i></a>
                     </div>
                     <h4>Ou use seu email para registro</h4>
-                    <div class="CriarContaInputs">
-                        <input class="CriarContaInputsSecondInputs" type="email" placeholder="E-mail"/>
-                        <input class="CriarContaInputsSecondInputs" type="password" maxlength="10" placeholder="Senha"/>
+                    <div class="secondContentCriarContaInputs">
+                        <label class="CriarContaInputsSecondInputs">
+                            <i class="fas fa-envelope-square"></i>
+                            <input class="InputSecond" type="email" placeholder="E-mail"/>
+                        </label>
+                        <label class="CriarContaInputsSecondInputs">
+                            <i class="fas fa-lock"></i>
+                            <input class="InputSecond" type="password" maxlength="10" placeholder="Senha"/>
+                        </label>     
                     </div>    
-                    <p>Esqueceu a senha?</p>
+                    <a href=""><p class="secondContentEsqueceuSenha">Esqueceu a senha?</p></a>
                     <button class="secondContentButtonEntrar">ENTRAR</button>
                 </div>
             </div>
