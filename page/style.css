@@ -22,7 +22,7 @@
     width: 40%;
     height: 100%;
 
-    /*left: 60%;*/
+    left: 60%;
 }
 
 /* ============================ primary content ================================*/
@@ -32,10 +32,39 @@
     justify-content:space-around;
     align-items: center;
     height: 100%;
+    display: none;
+
 }
 
 .primaryContent2colunaCriarConta{
     color: rgb(12, 163, 156);
+}
+
+.primaryContentRedesSociais{
+    display: flex;
+    justify-content: center;
+}
+
+.primaryContentRedesSociaisIten{
+    margin: 5px;
+    color: rgb(211, 210, 210);
+    font-size: 20px;
+    border-style:solid;
+    border-radius: 50%;
+    padding: 1px;
+}
+
+.primaryContentCriarContaInputs{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    height: 130px;
+    width: 100%;
+}
+
+.primaryContentEmailRegistro{
+    color: rgb(221, 220, 220);
 }
 
 .primaryContentButtonEntrar{
@@ -47,6 +76,13 @@
     font-size: 15px;
     color: white;
     font-weight: 500;
+    transition: background-color .5s;
+}
+
+.ButtonEntrarCriarConta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .primaryContentButtonEntrar:hover{
@@ -72,7 +108,7 @@
     display: flex;
     align-items: center;
     justify-content:space-between;
-     display: none;
+    
 }
 
 .secondContent .secondContent1coluna{
@@ -213,5 +249,6 @@
     width: 100%;
 }
 
+/*========================== BOTÕES ======================================*/
 
 
