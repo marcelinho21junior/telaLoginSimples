@@ -2,6 +2,7 @@
 
 .container{
     display: flex;
+    flex-direction: row;
     justify-content:space-around;
     align-items: center;
     height: 100vh;
@@ -16,7 +17,7 @@
     border-radius: 10px;
     position: relative;*/
 
-    background-color: #fff;
+    background-color: rgb(255, 255, 255);
     border-radius: 15px;
     width: 960px;
     height: 60%;
@@ -32,7 +33,7 @@
     width: 40%;
     height: 100%;
 
-    left:0   
+    left:60%;  
     /*left: 60%;*/
 }
 
@@ -47,7 +48,7 @@
     justify-content:space-around;
     align-items: center;
     height: 100%;
-
+    display: none;
 }
 
 .primaryContent2colunaCriarConta{
