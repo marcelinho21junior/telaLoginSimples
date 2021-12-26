@@ -72,6 +72,11 @@
     padding: 1px;
 }
 
+.primaryContentRedesSociaisIten:hover{
+    background-color: aqua;
+    transition: background-color .5s;
+}
+
 .primaryContentCriarContaInputs{
     display: flex;
     justify-content: space-around;
@@ -119,6 +124,14 @@
     font-size: 15px;
     color: white;
     font-weight: 500;
+}
+
+.primaryContentButtonBemVindo:hover{
+    background-color:white;
+    border-color:rgb(12, 163, 156);
+    color:rgb(12, 163, 156);
+    font-weight: 600;
+    transition: background-color .5s;
 }
 
 /*============================= second content =================================*/
