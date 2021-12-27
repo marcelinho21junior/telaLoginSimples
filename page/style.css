@@ -286,4 +286,29 @@
 
 /*========================== BOTÕES ======================================*/
 
+/*========================== sign in e sign up ======================================*/
+.sign-in-js .primaryContent .primaryContent1coluna,
+.sign-in-js .primaryContent .primaryContent2coluna{
+    z-index: -1;
+}
+
+.sign-in-js .secondContent .secondContent1coluna,
+.sign-in-js .secondContent .secondContent2coluna{
+    z-index: 11;
+}
+
+.sign-in-js .content::before{
+    left: 60%;
+}
+
+.sign-up-js .secondContent .secondContent1coluna,
+.sign-up-js .secondContent .secondContent2coluna{
+    z-index: -1;
+}
+
+.sign-up-js .primaryContent .primaryContent1coluna,
+.sign-up-js .primaryContent .primaryContent2coluna{
+    z-index: 11;
+}
+
 
