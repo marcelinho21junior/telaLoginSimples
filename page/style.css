@@ -299,6 +299,12 @@
 
 .sign-in-js .content::before{
     left: 60%;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    animation: slidein 1.3s; /*MODIFIQUEI DE 3s PARA 1.3s*/
+
 }
 
 .sign-up-js .secondContent .secondContent1coluna,
@@ -310,5 +316,71 @@
 .sign-up-js .primaryContent .primaryContent2coluna{
     z-index: 11;
 }
+
+.sign-up-js .content::before {
+    animation: slideout 1.3s; /*MODIFIQUEI DE 3s PARA 1.3s*/
+
+}
+
+/*------------------------------ANIMAÇÕES DO CSS--------------------------------*/
+
+
+
+@keyframes slidein {
+
+    from {
+        left: 0;
+        width: 40%;
+    }
+
+    25% {
+        left: 5%;
+        width: 50%;
+    }
+
+    50% {
+        left: 25%;
+        width: 60%;
+    }
+
+    75% {
+        left: 45%;
+        width: 50%;
+    }
+
+    to {
+        left: 60%;
+        width: 40%;
+    }
+}
+
+@keyframes slideout {
+
+    from {
+        left: 60%;
+        width: 40%;
+    }
+
+    25% {
+        left: 45%;
+        width: 50%;
+    }
+
+    50% {
+        left: 25%;
+        width: 60%;
+    }
+
+    75% {
+        left: 5%;
+        width: 50%;
+    }
+
+    to {
+        left: 0;
+        width: 40%;
+    }
+}
+
 
 
