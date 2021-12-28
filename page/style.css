@@ -395,6 +395,28 @@
         top:0;
         border-radius: 0;
     }
+
+    .primaryContent, .secondContent {
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .primaryContent, .secondContent {
+        width: 100%;
+    }
+    
+    .sign-in-js .content::before {
+        top: 60%;
+        left: 0;
+        border-radius: 0;
+
+    }
+
+    
+    .form {
+        width: 90%;
+    }
+    
 }
 
 
